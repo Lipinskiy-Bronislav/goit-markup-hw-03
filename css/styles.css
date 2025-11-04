@@ -48,7 +48,7 @@ img {
 
 .page-header {
     padding-bottom: 96px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .nav-conteiner {
@@ -196,7 +196,7 @@ img {
 .list-info {
     display: flex;
     align-items: center;
-    gap: 24px;
+    flex-basis: calc((100% - 24px * 3) / 4);
 }
 
 .list-info-elements {
@@ -204,12 +204,13 @@ img {
 }
 
 .info-elements-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    
 }
 
 .info-elements-text {
@@ -305,7 +306,7 @@ img {
     }
 
 .list-portfolio-element {
-
+    width: calc((100% - 48px) / 3);
 }
 
 .list-portfolio-title {
