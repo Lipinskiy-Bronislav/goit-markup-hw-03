@@ -40,7 +40,7 @@ img {
     max-width: 100%;
 }
 
-.conteiner {
+.container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -196,11 +196,11 @@ img {
 .list-info {
     display: flex;
     align-items: center;
-    flex-basis: calc((100% - 24px * 3) / 4);
+    gap: 24px
 }
 
 .list-info-elements {
-
+    flex-basis: ((100% - 3 * 24px) / 4);
 }
 
 .info-elements-title {
@@ -310,6 +310,7 @@ img {
 }
 
 .list-portfolio-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
